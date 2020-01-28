@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.navcontainer {
+    background-color: #ff9933;
+    overflow: hidden;
+}
+.navcontainer a {
+    float: left;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navcontainer a:hover {
+    background-color: #cc6600;
+    color: black;
+}
+.navcontainer a.navcontainer {
+    background-color: #4CAF50;
+    color: white;
+}
+.maincontainer {
+
+}
+.homeimage img {
+    float: right;
+    width: 100%;
+}
+.aboutimage img {
+    float: left;
+    border: black solid thin;
+}
+.text {
+    background-color: #ff8c66;
+    float: left;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 22px;
+}
+.text p {
+    text-align: left;
+    padding: 5px 5px;
+    font-size: 22px;
+}
+.text ul {
+    text-align: left;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 0;
+    color: white;
+}
+ul.first {
+    list-style-type: circle;
+}
+
+ul.second {
+    list-style-type: square;
+}
+input[type=submit]  {
+    background-color: #ff9933;
+    border: darkred solid thin;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text]  {
+    background-color: wheat;
+    border: darkred solid thin;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
